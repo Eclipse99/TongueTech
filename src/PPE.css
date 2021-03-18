@@ -1,0 +1,179 @@
+.profil{
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.info {
+    font: normal normal normal 12px Raleway;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 910px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    min-width: 600px;
+
+
+    background: #E9E9E9 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.info h3{
+
+    font: normal 20px ;
+    letter-spacing: 0px;
+    margin-bottom: 0px;
+}
+
+hr{
+    max-width: 880px;
+    min-width: auto;
+    align-content: center;
+}
+
+.droite {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #5E99A3 ;}
+
+li {
+
+    float: left;
+    border-right:1px solid #bbb;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:last-child {
+    border-right: none;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+    padding: 14px 16px;
+}
+
+.active {
+    background-color: #73B2BD ;
+}
+
+.logo{
+    background-color: #F7F7F7 ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+}
+.head{
+    background-color: #F7F7F7 ;
+}
+
+/* FOOTER */
+
+ 
+.footer{
+    color: #ffffff;
+    background-color: #5E99A3;
+    font-size : 1rem;
+    text-align: center;
+    vertical-align:middle;
+    font: Raleway;
+    }
+    
+    a{
+    margin-left : 1rem;
+    }
+    
+    .btn-social
+    {
+        border-radius: 50%;
+        color: #5E99A3;
+        display: inline-block;
+        height:50%;
+        line-height: 2rem;
+        text-align: center;
+        vertical-align:middle;
+        text-decoration: none;
+        transition: background-color .3s;
+        width: 4%;
+        margin-top : 2rem;
+        margin-bottom : 1rem;
+        margin-right:0.8rem;
+    }
+    
+    .btn-facebook
+    {
+        background-color: #ffffff;
+    }
+    .btn-linkedin
+    {
+        background-color: #ffffff;
+    }
+    .btn-instagram
+    {
+        background-color: #ffffff;
+    }
+
+    /* Fin footer */
+
+    /* ABOUT */
+
+.about{
+    font: normal normal normal 12px Raleway;
+    width: 100%;
+}
+.team{
+    border-radius: 2%;
+
+    margin-top: 9px;
+    float: left;
+    margin-left: 5%;
+    width: 47%;
+    background: #E9E9E9 0% 0% no-repeat padding-box;
+    box-shadow: 2px 2px 5px #918f8f;
+
+}
+
+.contact{
+
+    border-radius: 2%;
+    margin-top: 10px;
+    margin-left: 60%;
+    margin-right: 5%;
+    background: #E9E9E9 0% 0% no-repeat padding-box;
+    box-shadow: 2px 2px 5px #918f8f;
+}
+
+.contact h3, .team h3{
+
+    text-align: center;
+    font: normal 20px ;
+    letter-spacing: 0px;
+    margin-bottom: 0px;
+}
+
+.msg{width: 500px;
+height: 200px;
+}
+    /* FIN ABOUT */
+
+.contact span {
+padding-top: 10px;
+margin-left: 10px;}
